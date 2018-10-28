@@ -5,7 +5,7 @@ _______________________________________________
 
 ## How to use the library:
 * make sure that your Python version is **3.6 or higher** and "asteval" library is installed;
-* place "myobfuscator" folder to the directory "...\Lib\site-packages" where "..." is your directory with Python;
+* place "myobfuscator" folder to the directory "...\Lib\site-packages" where "..." is your directory with Python. Also, you can place the jibrary in your project directory;
 * to use obfuscator, do the following: 
     ```python
     from myobfuscator import ob
