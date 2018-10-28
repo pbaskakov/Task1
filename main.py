@@ -10,7 +10,7 @@ if __name__ == '__main__':
                   input('Enter the known vars and their values(like "a=100, b=200"): ').split(','))
     known_vars = {name.strip(): float(val.strip()) for name, val in known_vars}
     unknown_vars = {name.strip(): randint(0, 100) for name in
-                    input('Enter the unknown vars: ').split(',')}
+                    input('Enter the unknown vars (like "x, y, z"): ').split(',')}
 
     if not set(known_vars.keys()).isdisjoint(set(unknown_vars)):
         sys.exit("Sets of known adn unknown vars can't be intersected.")
