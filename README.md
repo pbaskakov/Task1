@@ -9,7 +9,7 @@ _______________________________________________
     ```python
     from myobfuscator import ob
     ```
- `ob(value: int, known: dict, unknown: list)` takes 3 arguments, where:
+  `ob(value: int, known: dict, unknown: list)` takes 3 arguments, where:
   * _value_ is the value which should take the expression;
   * _known_ is a dict containing pairs of known vars, like {'a': 100, 'b': 200};
   * _unknown_ is a list with names of unknown vars, like ['x', 'y', 'z'].
